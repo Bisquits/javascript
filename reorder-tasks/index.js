@@ -29,7 +29,7 @@ function initialize() {
 				currentContainer.replaceChild(previousTask, currentTask);
 				previousContainer.insertBefore(
 					currentTask,
-					previousContainer.lastElementChild
+					previousContainer.firstElementChild
 				);
 			}
 		});
